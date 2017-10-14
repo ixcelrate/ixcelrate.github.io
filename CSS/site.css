@@ -1,0 +1,65 @@
+﻿body {
+    background-image: url('../Images/HomeBG.jpg');
+    position: center;
+}
+
+.navbar-inverse {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+    .navbar-brand img {
+        height: 100px;
+        width: auto;
+    }
+
+#imgConstCap {
+    height: 300px;
+    width: auto;
+}
+
+hr {
+    border-top: 1px solid #f86504;
+    margin: 5px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: white;
+}
+
+h3, h4 {
+    opacity: 0.6;
+}
+
+#contact {
+}
+
+@media screen and (max-width:990px) {
+    #divMain, #divHomeContent {
+        text-align: center !important;
+    }  
+}
+
+@media screen and (max-width:500px) {
+    h1{
+        font-size:28px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    #imgConstCap {
+        height: 200px;
+        width: auto;
+    }
+}
+
+
